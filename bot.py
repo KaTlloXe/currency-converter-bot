@@ -1,6 +1,6 @@
 import telebot
-import requests
 import os
+import requests
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 
 bot = telebot.TeleBot(os.environ['TOKEN'])
