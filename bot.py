@@ -2,7 +2,7 @@ import telebot
 import requests
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(os.environ['TOKEN'])
 
 # Валюти
 SUPPORTED_CURRENCIES = ["UAH", "USD", "EUR", "GBP", "CAD", "PLN", "RON"]
